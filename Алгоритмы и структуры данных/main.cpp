@@ -4,46 +4,64 @@
 #include <string> // текстовые строки С++
 #include <iomanip> // Библиотека для использования манипуляторов ввода-вывода.
 #include <Windows.h> // решение проблем кодировки текста
+#include <exception>
+#include <cmath>
+#define N 3
 
 using namespace std;
 
-#define Z 79
-
-using namespace std;
-
-double xmax = 1;
-double ymax = 5;
-double dt = 0.01;
-double tk = 5;
-
-void polet(double y, double F, ofstream& file)
+template <class T, int n>
+class vector
 {
-	double Vx = 3;
-	double Vy = 0;
-	double x = -3;
-	double t = 0;
-	while ((t <= tk) && (x <= xmax) && (y <= ymax))
-	{
-		Vx = Vx + F * abs(x) * pow(x * x + y * y, -1.5) * dt;
-		Vy = Vy + F * abs(y) * pow(x * x + y * y, -1.5) * dt;
-		x += Vx * dt;
-		y += Vy * dt;
-		t += dt;
-		if ((x <= xmax) && (y <= ymax))
-			file << x << "," << y << endl;
-	}
+private:
+	T *vectors;
+public:
+	vector();
+	~vector();
+	T scalar_product();
+	T scalar_product_sum();
+};
+
+template <class T, int n>
+vector<T,n>::vector()
+{
+	vectors = new T[n];
 }
+
+template <class T, int n>
+vector<T,n>::~vector()
+{
+	delete[]vectors;
+}
+
+template <class T, int n>
+T vector<T, n>::scalar_product_sum()
+{
+	T a, b, c, mult = 0.0;
+	for (int i = 0; i < n; i++)
+	{
+		cout << "Введите a" << i + 1 << endl;
+		cin >> a;
+		cout << "Введите b" << i + 1 << endl;
+		cin >> b;
+		c = a * b;
+		cout << "Result" << " = " << a << "*" << b << " = " << c << endl;
+		mult += c;
+	}
+	cout << "mult = " << mult << endl;
+	return mult;
+}
+
+
 
 int main()
 {
-	ofstream file("Polet.txt");
-	double e = 1.602189246 * pow(10, -19);
-	double k = 8.987551777 * pow(10, 9);
-	double Ma = 6.638 * pow(10, -27);
-	double kof = (2 * k * Z * e * e) / Ma;
-	file << "x,y" << endl;
-	polet(0.1, kof, file);
-	polet(0.3, kof, file);
-	polet(0.5, kof, file);
+	setlocale(LC_ALL, "RUS");
+	vector<float, N> *x = 0;
+	float y = 0;
+	int i = 0;
+
+	x[i].scalar_product_sum();
+
 	return 0;
 }
