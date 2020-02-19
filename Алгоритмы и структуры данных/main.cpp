@@ -30,7 +30,7 @@ void polet(double y, double F, ofstream& file)
 		y += Vy * dt;
 		t += dt;
 		if ((x <= xmax) && (y <= ymax))
-			file << x << ";" << y << endl;
+			file << x << "," << y << endl;
 	}
 }
 
@@ -41,6 +41,7 @@ int main()
 	double k = 8.987551777 * pow(10, 9);
 	double Ma = 6.638 * pow(10, -27);
 	double kof = (2 * k * Z * e * e) / Ma;
+	file << "x,y" << endl;
 	polet(0.1, kof, file);
 	polet(0.3, kof, file);
 	polet(0.5, kof, file);
