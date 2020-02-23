@@ -1,2 +1,47 @@
 ﻿  main.cpp
+D:\Рабочий стол\REP\Алгоритмы и структуры данных\main.cpp(56,21): warning C4244: инициализация: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+D:\Рабочий стол\REP\Алгоритмы и структуры данных\main.cpp(55): message : во время компиляции функции-члена класс шаблон "T svector<T,50000>::scalar_product(void)"
+          with
+          [
+              T=int
+          ]
+D:\Рабочий стол\REP\Алгоритмы и структуры данных\main.cpp(84): message : выполняется компиляция ссылки на экземпляр шаблон функции "T svector<T,50000>::scalar_product(void)"
+          with
+          [
+              T=int
+          ]
+D:\Рабочий стол\REP\Алгоритмы и структуры данных\main.cpp(84): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "svector<int,50000>"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\include\chrono(632): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "std::chrono::duration<double,std::ratio<1,1>>"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\include\chrono(178): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "std::chrono::duration<__int64,std::nano>"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\include\chrono(610): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>"
+D:\Рабочий стол\REP\Алгоритмы и структуры данных\main.cpp(59,32): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Рабочий стол\REP\Алгоритмы и структуры данных\main.cpp(38,12): warning C4244: инициализация: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+D:\Рабочий стол\REP\Алгоритмы и структуры данных\main.cpp(37): message : во время компиляции функции-члена класс шаблон "T svector<T,50000>::multiply(T [],T [])"
+          with
+          [
+              T=int
+          ]
+D:\Рабочий стол\REP\Алгоритмы и структуры данных\main.cpp(72): message : выполняется компиляция ссылки на экземпляр шаблон функции "T svector<T,50000>::multiply(T [],T [])"
+          with
+          [
+              T=int
+          ]
+D:\Рабочий стол\REP\Алгоритмы и структуры данных\main.cpp(55): message : во время компиляции функции-члена класс шаблон "T svector<T,50000>::scalar_product(void)"
+          with
+          [
+              T=int
+          ]
+D:\Рабочий стол\REP\Алгоритмы и структуры данных\main.cpp(84): message : выполняется компиляция ссылки на экземпляр шаблон функции "T svector<T,50000>::scalar_product(void)"
+          with
+          [
+              T=int
+          ]
   Алгоритмы и структуры данных.vcxproj -> D:\Рабочий стол\REP\Алгоритмы и структуры данных\x64\Debug\Алгоритмы и структуры данных.exe
