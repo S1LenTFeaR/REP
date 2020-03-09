@@ -1,0 +1,33 @@
+﻿  main.cpp
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(129,32): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(276): message : выполняется компиляция ссылки на экземпляр шаблон функции "void realgen<double>(int)"
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(204,32): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(277): message : выполняется компиляция ссылки на экземпляр шаблон функции "void intgen<int>(int)"
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(71,30): warning C4244: аргумент: преобразование "T" в "int", возможна потеря данных
+          with
+          [
+              T=double
+          ]
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(166): message : выполняется компиляция ссылки на экземпляр шаблон функции "T quickSort<T>(T *,int,int)"
+          with
+          [
+              T=double
+          ]
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(276): message : выполняется компиляция ссылки на экземпляр шаблон функции "void realgen<double>(int)"
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(73,24): warning C4244: аргумент: преобразование "T" в "int", возможна потеря данных
+          with
+          [
+              T=double
+          ]
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(35,18): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(227): message : выполняется компиляция ссылки на экземпляр шаблон функции "T Puzyrik<T>(T *,int)"
+          with
+          [
+              T=int
+          ]
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(277): message : выполняется компиляция ссылки на экземпляр шаблон функции "void intgen<int>(int)"
+  Project1.vcxproj -> D:\Рабочий стол\REP\Algorithms and data structures\x64\Debug\Project1.exe

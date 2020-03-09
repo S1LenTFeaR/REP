@@ -1,3 +1,34 @@
-﻿  main.cpp
-D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(68,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (N2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(129,32): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(276): message : выполняется компиляция ссылки на экземпляр шаблон функции "void realgen<double>(int)"
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(204,32): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(277): message : выполняется компиляция ссылки на экземпляр шаблон функции "void intgen<int>(int)"
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(71,30): warning C4244: аргумент: преобразование "T" в "int", возможна потеря данных
+          with
+          [
+              T=double
+          ]
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(166): message : выполняется компиляция ссылки на экземпляр шаблон функции "T quickSort<T>(T *,int,int)"
+          with
+          [
+              T=double
+          ]
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(276): message : выполняется компиляция ссылки на экземпляр шаблон функции "void realgen<double>(int)"
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(73,24): warning C4244: аргумент: преобразование "T" в "int", возможна потеря данных
+          with
+          [
+              T=double
+          ]
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(35,18): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(227): message : выполняется компиляция ссылки на экземпляр шаблон функции "T Puzyrik<T>(T *,int)"
+          with
+          [
+              T=int
+          ]
+D:\Рабочий стол\REP\Algorithms and data structures\main.cpp(277): message : выполняется компиляция ссылки на экземпляр шаблон функции "void intgen<int>(int)"
   Algorithms and data structures.vcxproj -> D:\Рабочий стол\REP\Algorithms and data structures\x64\Debug\Algorithms and data structures.exe

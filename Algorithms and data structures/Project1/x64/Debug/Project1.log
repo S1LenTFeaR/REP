@@ -1,0 +1,15 @@
+﻿  main.cpp
+D:\Рабочий стол\REP\Algorithms and data structures\Project1\main.cpp(150,32): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Рабочий стол\REP\Algorithms and data structures\Project1\main.cpp(222): message : выполняется компиляция ссылки на экземпляр шаблон функции "void intgen<int>(int)"
+D:\Рабочий стол\REP\Algorithms and data structures\Project1\main.cpp(35,18): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+D:\Рабочий стол\REP\Algorithms and data structures\Project1\main.cpp(173): message : выполняется компиляция ссылки на экземпляр шаблон функции "T Puzyrik<T>(T *,int)"
+          with
+          [
+              T=int
+          ]
+D:\Рабочий стол\REP\Algorithms and data structures\Project1\main.cpp(222): message : выполняется компиляция ссылки на экземпляр шаблон функции "void intgen<int>(int)"
+  Project1.vcxproj -> D:\Рабочий стол\REP\Algorithms and data structures\x64\Debug\Project1.exe
